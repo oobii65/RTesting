@@ -9,5 +9,5 @@ duration.freq <- table(duration.cut)
 cumfreq0 = c(0, cumsum(duration.freq))
 
 plot(breaks, cumfreq0, main="Old Faithful Eruptions", xlab="Duration minutes", ylab="Cumulative eruptions")
-lines(breaks, cumfreq0)
+lines(breaks, cumfreq0) # Add lines between points
 
